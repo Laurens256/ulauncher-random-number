@@ -1,0 +1,22 @@
+{
+	"required_api_version": "2",
+	"name": "Random Number",
+	"description": "Generate a random number",
+	"developer_name": "Laurens256",
+	"icon": "images/icon.png",
+	"preferences": [
+		{
+			"id": "kw",
+			"type": "keyword",
+			"name": "Random Number",
+			"default_value": "r"
+		},
+		{
+			"id": "default_range",
+			"type": "input",
+			"name": "Default range",
+			"description": "Default range of the random number",
+			"default_value": "1-10"
+		}
+	]
+}
