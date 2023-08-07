@@ -58,7 +58,7 @@ def render_result(lower, upper):
                             on_enter=CopyToClipboardAction(str(random_number))),
         ExtensionResultItem(icon='images/icon.png',
                             name='Reroll',
-                            description='Reroll with the same range',
+                            description='Reroll using the same range',
                             on_enter=ExtensionCustomAction(data, keep_app_open=True))
         ])
 
